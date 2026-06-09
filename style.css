@@ -479,7 +479,7 @@ a{
 
 /*-------------------media queries de zoom cuando se seleccione un producto-------------*/
 
-@media (max-width: 1400px) {
+@media (max-width: 1280px) {
    #overlay .product-card {
      width: 40%;
      height: auto;
@@ -488,18 +488,24 @@ a{
      transform: scale(1.60); /* agranda un 15% */
      transition: transform 0.5s ease;
    }
+   #overlay .img-placeholder {
+    height: 200px; /* alarga la imagen */
+  }
  }
 
 
 @media (max-width: 900px) {
    #overlay .product-card {
-     width: 40%;
+     width: 50%;
      height: auto;
      position: fixed;
 
      transform: scale(1.50); /* agranda un 15% */
      transition: transform 0.5s ease;
    }
+   #overlay .img-placeholder {
+    height: 200px; /* alarga la imagen */
+  }
  }
 
 @media (max-width: 600px) {
@@ -510,6 +516,9 @@ a{
 
     transform: scale(1.0); /* agranda un 15% */
   transition: transform 0.5s ease;
+  #overlay .img-placeholder {
+    height: 200px; /* alarga la imagen */
+  }
 
   }
 }
