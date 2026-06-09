@@ -474,7 +474,9 @@ a{
   transform: scale(1.50); /* agranda un 15% */
   transition: transform 0.5s ease;
 }
-
+#overlay .img-placeholder {
+    height: 260px; /* alarga la imagen */
+}
 
 
 /*-------------------media queries de zoom cuando se seleccione un producto-------------*/
