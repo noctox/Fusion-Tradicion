@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Fusion y tradicion</title>
+    <!--importacion de fuentes para las letras-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!--importacion para iconos de redes sociales-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Restaurante Fusion y tradicion</div>
+        <nav>
+            <a href="#carta">Carta</a>
+            <a href="#menu">Menú</a>
+            <a href="#footer">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Restaurante<br>Fusion y tradicion</h1>
+            <p class="hero-sub">Sabor auténtico · Chiclayo, Perú</p>
+        </div>
+        <div class="scroll-hint">Explorar</div>
+    </section>
+
+    <!-- CARTA -->
+    <section id="carta">
+        <p class="section-label">Nuestra</p>
+        <h2 class="section-title">Carta</h2>
+        <div class="carta-grid">
+            <!-- ponemos todos los elementos de la carta -->
+            <a href="#especialidades">
+                <div class="carta-item">Especialidades de la casa</div>
+            </a>
+            <a href="#pescados-mariscos">
+                <div class="carta-item">Pescados y Mariscos</div>
+            </a>
+            <a href="#carnes">
+                <div class="carta-item">Carnes</div>
+            </a>
+            <a href="#pastas">
+                <div class="carta-item">Pastas</div>
+            </a>
+            <a href="#guarniciones">
+                <div class="carta-item">Guarniciones</div>
+            </a>
+            <a href="#criollos">
+                <div class="carta-item">Criollos</div>
+            </a>
+            <a href="#entradas">
+                <div class="carta-item">Entradas</div>
+            </a>
+            <a href="#ensaladas">
+                <div class="carta-item">Ensaladas Especiales</div>
+            </a>
+            <a href="#sopas">
+                <div class="carta-item">Sopas</div>
+            </a>
+            <a href="#postres">
+                <div class="carta-item">Postres</div>
+            </a>
+            <a href="#bebidas">
+                <div class="carta-item">Bebidas</div>
+            </a>
+            <a href="#contacto">
+                <div class="carta-item">Contacto</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu">
+        <p class="section-label">Selección</p>
+        <h2 class="section-title">Menú</h2>
+
+        <!-- PESCADOS Y MARISCOS -->
+        <div class="category-block" id="pescados-mariscos">
+            <h3 class="category-title">
+                Pescados y Mariscos
+                <span>Del mar a tu mesa</span>
+            </h3>
+            <div class="carousel-wrapper" data-carousel>
+                <button class="carousel-btn btn-prev" aria-label="Anterior">&#8592;</button>
+                <div class="carousel-track-outer">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div><img src="./imagenes/cevichePescado.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Ceviche de Pescado</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 39.00</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div><img src="./imagenes/cevicheMixto.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Ceviche mixto</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 45.00</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div><img src="./imagenes/arrozConMariscos.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Arroz con Mariscos</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 45.00</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div><img src="./imagenes/tortillaDeRaya.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Tortilla de Raya </div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 37.00</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="img-placeholder">Imagen del plato</div>
+                            <div class="product-info">
+                                <div class="product-name">Título</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 0.00</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="img-placeholder">Imagen del plato</div>
+                            <div class="product-info">
+                                <div class="product-name">Título</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 0.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn btn-next" aria-label="Siguiente">&#8594;</button>
+            </div>
+        </div>
+
+        <!-- BEBIDAS -->
+        <div class="category-block" id="bebidas">
+            <h3 class="category-title">
+                Jugos
+                <span>Refrescantes y naturales</span>
+            </h3>
+            <div class="carousel-wrapper" data-carousel>
+                <button class="carousel-btn btn-prev" aria-label="Anterior">&#8592;</button>
+                <div class="carousel-track-outer">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div><img src="./imagenes/jugoPapaya.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Jugo de Papaya</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 6.50</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div><img src="./imagenes/jugoPiña.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Jugo de Piña</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 6.00</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div><img src="./imagenes/jugoSurtido.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Jugo Surtido</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 7.50</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div><img src="./imagenes/jugoNaranja.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Jugo de Naranja</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 7.50</div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="img-placeholder">Imagen del plato</div>
+                            <div class="product-info">
+                                <div class="product-name">Título</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 0.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn btn-next" aria-label="Siguiente">&#8594;</button>
+            </div>
+        </div>
+
+        <!-- Sopa -->
+        <div class="category-block" id="especialidades">
+            <h3 class="category-title">
+                Sopas
+                <span>Platos seleccionados</span>
+            </h3>
+            <div class="carousel-wrapper" data-carousel>
+                <button class="carousel-btn btn-prev" aria-label="Anterior">&#8592;</button>
+                <div class="carousel-track-outer">
+                    <div class="products-grid">
+                        <!-- SOPAS -->
+                        <div class="product-card">
+                            <div><img src="./imagenes/caldoGallina.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Caldo de Gallina</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 17.50</div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div><img src="./imagenes/sopaGallina.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Sopa de Gallina</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 19.50</div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div><img src="./imagenes/sopaCriolla.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Sopa de Criolla</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 22.00</div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div><img src="./imagenes/sopaMinuta.jpg" class="img-placeholder"></div>
+                            <div class="product-info">
+                                <div class="product-name">Sopa a la Minuta</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 18.00</div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="img-placeholder">Imagen del plato</div>
+                            <div class="product-info">
+                                <div class="product-name">Título</div>
+                                <div class="product-desc">Esto es una descripción</div>
+                                <div class="product-price">S/ 0.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn btn-next" aria-label="Siguiente">&#8594;</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer-logo">RESTAURANTE<br>Fusion y tradicion</div>
+        <div class="footer-divider"></div>
+
+        <div class="footer-col">
+            <h4>Horarios</h4>
+            <p>Lunes - Sábado<br>7:15 AM - 11 PM</p>
+
+            <div class="footer-social">
+
+                <!-- poniendo el ico de facebook -->
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/51926601977" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Dirección</h4>
+            <p>Av. José Balta <br>Chiclayo </p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Teléfono</h4>
+            <p>924544738</p>
+        </div>
+    </footer>
+    <!-- Fondo opaco para ampliar producto -->
+    <div id="overlay"></div>
+    <script src="script.js"></script>
+    <script src="efecto_zoom.js"></script>
+</body>
+
+</html>
